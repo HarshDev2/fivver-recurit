@@ -22,7 +22,7 @@ const BlogPost = (props) => {
             {/*  </a>*/}
             {/*</div>*/}
             <h3>
-              <Link href={props.postLink}>
+              <Link style={{textDecoration: 'inherit'}} href={props.postLink}>
                 {props.postTitle}
               </Link>
             </h3>

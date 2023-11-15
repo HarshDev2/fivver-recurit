@@ -67,7 +67,7 @@ mobileMenu();
           <NavLinks />
         </div>
         <div className="main-nav__right">
-          <Link className={`thm-btn ${props.btnClass}`} href="/contactus">
+          <Link style={{textDecoration: 'inherit'}} className={`thm-btn ${props.btnClass}`} href="/contactus">
           
             <span>I have questions about China</span>
           </Link>

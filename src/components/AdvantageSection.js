@@ -35,7 +35,7 @@ const CTATwo = () => {
                     Our Chinese team members will negotiate for you behind the scenes and help you communicate with your school if there are any issues.
                 </li>
             </ul>
-            <Link className="thm-btn cta-one__btn" href="/contactus">
+            <Link style={{textDecoration: 'inherit'}} className="thm-btn cta-one__btn" href="/contactus">
                 <span>I want to talk to a Representative</span>
             </Link>
 

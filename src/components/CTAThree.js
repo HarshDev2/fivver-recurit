@@ -24,7 +24,7 @@ const CTAThree = () => {
         </h3>
         <p>But don't take our word on it, check out these external sources about cost of living and expats discussing their lives in China </p>
         <div className="cta-three__btn-wrap">
-          <a target="_blank" href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=China" className="cta-three__btn">
+          <a style={{textDecoration: 'inherit'}} target="_blank" href="https://www.numbeo.com/cost-of-living/country_result.jsp?country=China" className="cta-three__btn">
             <i className="gg-credit-card"></i>
             <span>Cost of</span>
             <b>Living</b>

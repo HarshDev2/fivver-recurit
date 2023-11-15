@@ -65,37 +65,37 @@ const Team = () => {
           {/*    </div>*/}
           {/*  </div>*/}
           {/*</div>*/}
-   {/*<div className="col-lg-3 col-md-6 col-sm-12">*/}
-   {/*         <div className="team-one__single">*/}
-   {/*           <div className="team-one__circle"></div>*/}
-   {/*           <div className="team-one__inner">*/}
-   {/*             <h3>Teachers</h3>*/}
-   {/*             <p>English Speaking</p>*/}
-   {/*             <h6>Apply@75Recruit.com</h6>*/}
-   {/*             <h6+86-151-386-93451 <span style={{"fontSize":"8px"}}>Skype/WhatsApp</span></h6>*/}
-   {/*             <h6><i className="gg-phone"></i></h6>*/}
-   {/*             <div className="team-one__image">*/}
-   {/*               /!*<img src={RonQRCode} alt="" />*!/*/}
-   {/*               <Image src={RonQRCode} fill="cover" width={904} height={914}></Image>*/}
-   {/*             </div>*/}
-   {/*             /!*<div className="team-one__social">*!/*/}
-   {/*             /!*  <ul>*!/*/}
-   {/*             /!*    <li>hello</li>*!/*/}
-   {/*             /!*    <li>hello2</li>*!/*/}
-   {/*             /!*  </ul>*!/*/}
-   {/*             /!*  /!*<a href="#">*!/*!/*/}
-   {/*             /!*  /!*  <i className="fab fa-facebook-square"></i>*!/*!/*/}
-   {/*             /!*  /!*</a>*!/*!/*/}
-   {/*             /!*  /!*<a href="#">*!/*!/*/}
-   {/*             /!*  /!*  <i className="fab fa-twitter"></i>*!/*!/*/}
-   {/*             /!*  /!*</a>*!/*!/*/}
-   {/*             /!*  /!*<a href="#">*!/*!/*/}
-   {/*             /!*  /!*  <i className="fab fa-instagram"></i>*!/*!/*/}
-   {/*             /!*  /!*</a>*!/*!/*/}
-   {/*             /!*</div>*!/*/}
-   {/*           </div>*/}
-   {/*         </div>*/}
-   {/*       </div>*/}
+          {/*<div className="col-lg-3 col-md-6 col-sm-12">*/}
+          {/*         <div className="team-one__single">*/}
+          {/*           <div className="team-one__circle"></div>*/}
+          {/*           <div className="team-one__inner">*/}
+          {/*             <h3>Teachers</h3>*/}
+          {/*             <p>English Speaking</p>*/}
+          {/*             <h6>Apply@75Recruit.com</h6>*/}
+          {/*             <h6+86-151-386-93451 <span style={{"fontSize":"8px"}}>Skype/WhatsApp</span></h6>*/}
+          {/*             <h6><i className="gg-phone"></i></h6>*/}
+          {/*             <div className="team-one__image">*/}
+          {/*               /!*<img src={RonQRCode} alt="" />*!/*/}
+          {/*               <Image src={RonQRCode} fill="cover" width={904} height={914}></Image>*/}
+          {/*             </div>*/}
+          {/*             /!*<div className="team-one__social">*!/*/}
+          {/*             /!*  <ul>*!/*/}
+          {/*             /!*    <li>hello</li>*!/*/}
+          {/*             /!*    <li>hello2</li>*!/*/}
+          {/*             /!*  </ul>*!/*/}
+          {/*             /!*  /!*<a href="#">*!/*!/*/}
+          {/*             /!*  /!*  <i className="fab fa-facebook-square"></i>*!/*!/*/}
+          {/*             /!*  /!*</a>*!/*!/*/}
+          {/*             /!*  /!*<a href="#">*!/*!/*/}
+          {/*             /!*  /!*  <i className="fab fa-twitter"></i>*!/*!/*/}
+          {/*             /!*  /!*</a>*!/*!/*/}
+          {/*             /!*  /!*<a href="#">*!/*!/*/}
+          {/*             /!*  /!*  <i className="fab fa-instagram"></i>*!/*!/*/}
+          {/*             /!*  /!*</a>*!/*!/*/}
+          {/*             /!*</div>*!/*/}
+          {/*           </div>*/}
+          {/*         </div>*/}
+          {/*       </div>*/}
           <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="team-one__single">
               <div className="team-one__circle"></div>
@@ -103,10 +103,20 @@ const Team = () => {
                 <h3>Teachers</h3>
                 <p>English</p>
                 <h6>Ashley@75Recruit.com</h6>
-                <h6>+86-151-386-93451<span style={{"fontSize":"8px"}}>Skype/WhatsApp</span></h6>
-                <h6><i className="gg-phone"></i>+86-151-386-93451</h6>
+                <h6>
+                  +86-151-386-93451
+                  <span style={{ fontSize: "8px" }}>Skype/WhatsApp</span>
+                </h6>
+                <h6>
+                  <i className="gg-phone"></i>+86-151-386-93451
+                </h6>
                 <div className="team-one__image">
-                  <Image src={MengQRCode} fill="cover"></Image>
+                  <img
+                    src={"images/MengSmallQR-min.jpg"}
+                    fill="cover"
+                    width={160}
+                    height={160}
+                  ></img>
                 </div>
                 {/*<div className="team-one__social">*/}
                 {/*  <a href="#">*/}

@@ -3,12 +3,9 @@ import React from "react";
 import Layout from "../../components/Layout";
 import Header from "../../components/Header";
 import MobileMenu from "../../components/MobileMenu";
-import PageHeader from "../../components/PageHeader";
 import { Col, Container, Row } from "react-bootstrap";
 
-import PostPagination from "../../components/PostPagination";
 import Footer from "../../components/Footer";
-import BlogPost from "../../components/BlogPost";
 import Link from "next/link";
 import Preloader from "../../components/Preloader";
 import BlogCard from "../../components/BlogCard";
@@ -65,7 +62,7 @@ function BlogMainPage({ posts }) {
               The job market for expats in China moves quite fast and at times,
               we don't have time to update the website with ALL of the positions
               that we have available. The best is to contact us on{" "}
-              <Link href="/contactus">our contact page</Link> to speak with one
+              <Link style={{textDecoration: 'inherit'}} href="/contactus">our contact page</Link> to speak with one
               of our agents about what specifically you are looking or if you
               any special requirements or email us at Ashley@75Recruit.com{" "}
             </p>

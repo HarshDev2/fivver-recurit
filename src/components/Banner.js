@@ -68,7 +68,7 @@ const Banner = () => {
                   <br /> wished existed when we first came to China {" "}<br/>
 
                 </p>
-                <Link className="thm-btn banner-one__btn" href="/positions"  style={{'padding':'10px'}} >
+                <Link className="thm-btn banner-one__btn" href="/positions"  style={{'padding':'10px', textDecoration: "inherit"}} >
              
                     <span>Jobs</span>
            
