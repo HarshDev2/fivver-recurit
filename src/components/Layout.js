@@ -32,11 +32,11 @@ const Layout = (props) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="google-site-verification" content="YQuviCmzUcnl9xkDQ74xO1P8GedBFf9szGJO-P1Fjlk" />
         <title>{props.pageTitle}</title>
-        <link rel="apple-touch-icon" sizes="180x180" href={AppleTouch} />
-        <link rel="icon" type="image/png" sizes="32x32" href={Fevicon32} />
-        <link rel="icon" type="image/png" sizes="16x16" href={Fevicon16} />
-        <link rel="icon" type="image/png" sizes="192x192" href={Fevicon192} />
-        <link rel="icon" type="image/png" sizes="512x512" href={Fevicon512} />
+        <link rel="apple-touch-icon" sizes="180x180" href={"images/favicons/apple-touch-icon.png"} />
+        <link rel="icon" type="image/png" sizes="32x32" href={"images/favicons/favicon-32x32.png"} />
+        <link rel="icon" type="image/png" sizes="16x16" href={"images/favicons/favicon-16x16.png"} />
+        <link rel="icon" type="image/png" sizes="192x192" href={"images/favicons/android-chrome-192x192.png"} />
+        <link rel="icon" type="image/png" sizes="512x512" href={"images/favicons/android-chrome-512x512.png"} />
         {/*<link*/}
         {/*  href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"*/}
         {/*  rel="stylesheet"*/}
