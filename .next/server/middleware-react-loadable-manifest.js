@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST="{\"../components/AppScreen.js -> swiper\":{\"id\":\"../components/AppScreen.js -> swiper\",\"files\":[]}}"
