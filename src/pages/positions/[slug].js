@@ -1,8 +1,11 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import BlogPost from "../../components/storyblok/BlogPost";
 import StoryblokService from '../../utils/storyblok-service'
+import dynamic from "next/dynamic";
 
+const BlogPost = dynamic(() => import("../../components/storyblok/BlogPost"), {
+    ssr: false
+});
 
 export default class extends React.Component {
     constructor(props) {

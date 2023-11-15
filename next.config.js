@@ -5,7 +5,7 @@ const nextConfig = {
     remotePatterns: [{
       hostname: "a.storyblok.com"
     }]
-  }
+  },
 }
 
 module.exports = nextConfig
