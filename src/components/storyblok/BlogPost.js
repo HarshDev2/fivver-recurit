@@ -53,7 +53,7 @@ const BlogPost = ({ blok }) => (
                             <div className="blog-author">
                                 <div className="blog-author__image">
                                     {/*<img src={AuthorImage} alt="" />*/}
-                                    <Image src={LogoImage} width={1111} height={414}></Image>
+                                    <Image src={LogoImage} width={544} height={113}></Image>
                                 </div>
                                 <div className="blog-author__content">
                                     <h3>Ashley@75Recruit.com</h3>
